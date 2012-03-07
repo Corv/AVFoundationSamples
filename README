@@ -1,0 +1,2 @@
+ThumbnailGenerator - Creates a grid of equally spaced thumbnails from a movie. Allow the user to control the size and spacing of the thumbnails.
+AnimatedGIFCreator - Converts a movie to an animated GIF with a designated framerate.
