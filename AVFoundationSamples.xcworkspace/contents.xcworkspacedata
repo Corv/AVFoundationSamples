@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AnimatedGIFCreator/AnimatedGIFCreator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ThumbnailGenerator/ThumbnailGenerator.xcodeproj">
    </FileRef>
 </Workspace>

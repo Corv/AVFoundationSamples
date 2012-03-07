@@ -14,11 +14,9 @@
 		495E0BBE14E65C3A00CBE345 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 495E0BBC14E65C3A00CBE345 /* Credits.rtf */; };
 		495E0BC114E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E0BC014E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m */; };
 		495E0BC414E65C3B00CBE345 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495E0BC214E65C3B00CBE345 /* MainMenu.xib */; };
-		495E0BCB14E65CFA00CBE345 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */; };
-		495E0BCF14E65D1000CBE345 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */; };
-		4997F08114FA0CED009F6FF3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997F08014FA0CED009F6FF3 /* CoreServices.framework */; };
-		49F95DFE14E85D9300DC4E9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */; };
-		49F95E0114E8675200DC4E9C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F95E0014E8675200DC4E9C /* CoreMedia.framework */; };
+		49C3FCA8150734A300A0552D /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C3FCA7150734A300A0552D /* ApplicationServices.framework */; };
+		49C3FCAA150734AB00A0552D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C3FCA9150734AB00A0552D /* AVFoundation.framework */; };
+		49C3FCAC150734B900A0552D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C3FCAB150734B900A0552D /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +35,9 @@
 		495E0BBF14E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFCreatorAppDelegate.h; sourceTree = "<group>"; };
 		495E0BC014E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFCreatorAppDelegate.m; sourceTree = "<group>"; };
 		495E0BC314E65C3B00CBE345 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
-		495E0BCC14E65D0200CBE345 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = "<group>"; };
-		495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = ../../../../System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<group>"; };
-		49632D9614E65FDE004B4B5C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = ../../../../System/Library/Frameworks/QTKit.framework; sourceTree = "<group>"; };
-		4997F08014FA0CED009F6FF3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = ../../../../System/Library/Frameworks/CoreServices.framework; sourceTree = "<group>"; };
-		49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
-		49F95E0014E8675200DC4E9C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = ../../../../System/Library/Frameworks/CoreMedia.framework; sourceTree = "<group>"; };
+		49C3FCA7150734A300A0552D /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = ../../../../../System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<group>"; };
+		49C3FCA9150734AB00A0552D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
+		49C3FCAB150734B900A0552D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = ../../../../../System/Library/Frameworks/CoreMedia.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4997F08114FA0CED009F6FF3 /* CoreServices.framework in Frameworks */,
-				49F95E0114E8675200DC4E9C /* CoreMedia.framework in Frameworks */,
-				49F95DFE14E85D9300DC4E9C /* AVFoundation.framework in Frameworks */,
-				495E0BCB14E65CFA00CBE345 /* QuartzCore.framework in Frameworks */,
-				495E0BCF14E65D1000CBE345 /* ApplicationServices.framework in Frameworks */,
+				49C3FCAC150734B900A0552D /* CoreMedia.framework in Frameworks */,
+				49C3FCAA150734AB00A0552D /* AVFoundation.framework in Frameworks */,
+				49C3FCA8150734A300A0552D /* ApplicationServices.framework in Frameworks */,
 				495E0BAE14E65C3A00CBE345 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,13 +58,9 @@
 		495E0B9E14E65C3A00CBE345 = {
 			isa = PBXGroup;
 			children = (
-				4997F08014FA0CED009F6FF3 /* CoreServices.framework */,
-				49F95E0014E8675200DC4E9C /* CoreMedia.framework */,
-				49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */,
-				49632D9614E65FDE004B4B5C /* QTKit.framework */,
-				495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */,
-				495E0BCC14E65D0200CBE345 /* QuickTime.framework */,
-				495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */,
+				49C3FCAB150734B900A0552D /* CoreMedia.framework */,
+				49C3FCA9150734AB00A0552D /* AVFoundation.framework */,
+				49C3FCA7150734A300A0552D /* ApplicationServices.framework */,
 				495E0BB314E65C3A00CBE345 /* AnimatedGIFCreator */,
 				495E0BAC14E65C3A00CBE345 /* Frameworks */,
 				495E0BAA14E65C3A00CBE345 /* Products */,
@@ -282,6 +270,7 @@
 				GCC_PREFIX_HEADER = "AnimatedGIFCreator/AnimatedGIFCreator-Prefix.pch";
 				INFOPLIST_FILE = "AnimatedGIFCreator/AnimatedGIFCreator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -293,6 +282,7 @@
 				GCC_PREFIX_HEADER = "AnimatedGIFCreator/AnimatedGIFCreator-Prefix.pch";
 				INFOPLIST_FILE = "AnimatedGIFCreator/AnimatedGIFCreator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
