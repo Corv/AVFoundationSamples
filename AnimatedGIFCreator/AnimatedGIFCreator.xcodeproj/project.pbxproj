@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493F98D6150731D400706AB1 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493F98D5150731D400706AB1 /* MyWindowController.m */; };
+		495E0BAE14E65C3A00CBE345 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E0BAD14E65C3A00CBE345 /* Cocoa.framework */; };
+		495E0BB814E65C3A00CBE345 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495E0BB614E65C3A00CBE345 /* InfoPlist.strings */; };
+		495E0BBA14E65C3A00CBE345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E0BB914E65C3A00CBE345 /* main.m */; };
+		495E0BBE14E65C3A00CBE345 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 495E0BBC14E65C3A00CBE345 /* Credits.rtf */; };
+		495E0BC114E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E0BC014E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m */; };
+		495E0BC414E65C3B00CBE345 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495E0BC214E65C3B00CBE345 /* MainMenu.xib */; };
+		495E0BCB14E65CFA00CBE345 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */; };
+		495E0BCF14E65D1000CBE345 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */; };
+		4997F08114FA0CED009F6FF3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997F08014FA0CED009F6FF3 /* CoreServices.framework */; };
+		49F95DFE14E85D9300DC4E9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */; };
+		49F95E0114E8675200DC4E9C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F95E0014E8675200DC4E9C /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		493F98D4150731D400706AB1 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		493F98D5150731D400706AB1 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		495E0BA914E65C3A00CBE345 /* AnimatedGIFCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedGIFCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E0BAD14E65C3A00CBE345 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		495E0BB014E65C3A00CBE345 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		495E0BB114E65C3A00CBE345 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		495E0BB214E65C3A00CBE345 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495E0BB514E65C3A00CBE345 /* AnimatedGIFCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedGIFCreator-Info.plist"; sourceTree = "<group>"; };
+		495E0BB714E65C3A00CBE345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495E0BB914E65C3A00CBE345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495E0BBB14E65C3A00CBE345 /* AnimatedGIFCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedGIFCreator-Prefix.pch"; sourceTree = "<group>"; };
+		495E0BBD14E65C3A00CBE345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		495E0BBF14E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGIFCreatorAppDelegate.h; sourceTree = "<group>"; };
+		495E0BC014E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGIFCreatorAppDelegate.m; sourceTree = "<group>"; };
+		495E0BC314E65C3B00CBE345 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		495E0BCC14E65D0200CBE345 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = "<group>"; };
+		495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = ../../../../System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<group>"; };
+		49632D9614E65FDE004B4B5C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = ../../../../System/Library/Frameworks/QTKit.framework; sourceTree = "<group>"; };
+		4997F08014FA0CED009F6FF3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = ../../../../System/Library/Frameworks/CoreServices.framework; sourceTree = "<group>"; };
+		49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
+		49F95E0014E8675200DC4E9C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = ../../../../System/Library/Frameworks/CoreMedia.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495E0BA614E65C3A00CBE345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4997F08114FA0CED009F6FF3 /* CoreServices.framework in Frameworks */,
+				49F95E0114E8675200DC4E9C /* CoreMedia.framework in Frameworks */,
+				49F95DFE14E85D9300DC4E9C /* AVFoundation.framework in Frameworks */,
+				495E0BCB14E65CFA00CBE345 /* QuartzCore.framework in Frameworks */,
+				495E0BCF14E65D1000CBE345 /* ApplicationServices.framework in Frameworks */,
+				495E0BAE14E65C3A00CBE345 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495E0B9E14E65C3A00CBE345 = {
+			isa = PBXGroup;
+			children = (
+				4997F08014FA0CED009F6FF3 /* CoreServices.framework */,
+				49F95E0014E8675200DC4E9C /* CoreMedia.framework */,
+				49F95DFD14E85D9300DC4E9C /* AVFoundation.framework */,
+				49632D9614E65FDE004B4B5C /* QTKit.framework */,
+				495E0BCE14E65D1000CBE345 /* ApplicationServices.framework */,
+				495E0BCC14E65D0200CBE345 /* QuickTime.framework */,
+				495E0BCA14E65CFA00CBE345 /* QuartzCore.framework */,
+				495E0BB314E65C3A00CBE345 /* AnimatedGIFCreator */,
+				495E0BAC14E65C3A00CBE345 /* Frameworks */,
+				495E0BAA14E65C3A00CBE345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495E0BAA14E65C3A00CBE345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495E0BA914E65C3A00CBE345 /* AnimatedGIFCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495E0BAC14E65C3A00CBE345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495E0BAD14E65C3A00CBE345 /* Cocoa.framework */,
+				495E0BAF14E65C3A00CBE345 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495E0BAF14E65C3A00CBE345 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495E0BB014E65C3A00CBE345 /* AppKit.framework */,
+				495E0BB114E65C3A00CBE345 /* CoreData.framework */,
+				495E0BB214E65C3A00CBE345 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		495E0BB314E65C3A00CBE345 /* AnimatedGIFCreator */ = {
+			isa = PBXGroup;
+			children = (
+				493F98D4150731D400706AB1 /* MyWindowController.h */,
+				493F98D5150731D400706AB1 /* MyWindowController.m */,
+				495E0BBF14E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.h */,
+				495E0BC014E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m */,
+				495E0BC214E65C3B00CBE345 /* MainMenu.xib */,
+				495E0BB414E65C3A00CBE345 /* Supporting Files */,
+			);
+			path = AnimatedGIFCreator;
+			sourceTree = "<group>";
+		};
+		495E0BB414E65C3A00CBE345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495E0BB514E65C3A00CBE345 /* AnimatedGIFCreator-Info.plist */,
+				495E0BB614E65C3A00CBE345 /* InfoPlist.strings */,
+				495E0BB914E65C3A00CBE345 /* main.m */,
+				495E0BBB14E65C3A00CBE345 /* AnimatedGIFCreator-Prefix.pch */,
+				495E0BBC14E65C3A00CBE345 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495E0BA814E65C3A00CBE345 /* AnimatedGIFCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E0BC714E65C3B00CBE345 /* Build configuration list for PBXNativeTarget "AnimatedGIFCreator" */;
+			buildPhases = (
+				495E0BA514E65C3A00CBE345 /* Sources */,
+				495E0BA614E65C3A00CBE345 /* Frameworks */,
+				495E0BA714E65C3A00CBE345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedGIFCreator;
+			productName = AnimatedGIFCreator;
+			productReference = 495E0BA914E65C3A00CBE345 /* AnimatedGIFCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495E0BA014E65C3A00CBE345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 495E0BA314E65C3A00CBE345 /* Build configuration list for PBXProject "AnimatedGIFCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 495E0B9E14E65C3A00CBE345;
+			productRefGroup = 495E0BAA14E65C3A00CBE345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495E0BA814E65C3A00CBE345 /* AnimatedGIFCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495E0BA714E65C3A00CBE345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E0BB814E65C3A00CBE345 /* InfoPlist.strings in Resources */,
+				495E0BBE14E65C3A00CBE345 /* Credits.rtf in Resources */,
+				495E0BC414E65C3B00CBE345 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495E0BA514E65C3A00CBE345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E0BBA14E65C3A00CBE345 /* main.m in Sources */,
+				495E0BC114E65C3A00CBE345 /* AnimatedGIFCreatorAppDelegate.m in Sources */,
+				493F98D6150731D400706AB1 /* MyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		495E0BB614E65C3A00CBE345 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E0BB714E65C3A00CBE345 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		495E0BBC14E65C3A00CBE345 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E0BBD14E65C3A00CBE345 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		495E0BC214E65C3B00CBE345 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E0BC314E65C3B00CBE345 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495E0BC514E65C3B00CBE345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		495E0BC614E65C3B00CBE345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		495E0BC814E65C3B00CBE345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedGIFCreator/AnimatedGIFCreator-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedGIFCreator/AnimatedGIFCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495E0BC914E65C3B00CBE345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedGIFCreator/AnimatedGIFCreator-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedGIFCreator/AnimatedGIFCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495E0BA314E65C3A00CBE345 /* Build configuration list for PBXProject "AnimatedGIFCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E0BC514E65C3B00CBE345 /* Debug */,
+				495E0BC614E65C3B00CBE345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495E0BC714E65C3B00CBE345 /* Build configuration list for PBXNativeTarget "AnimatedGIFCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E0BC814E65C3B00CBE345 /* Debug */,
+				495E0BC914E65C3B00CBE345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495E0BA014E65C3A00CBE345 /* Project object */;
+}

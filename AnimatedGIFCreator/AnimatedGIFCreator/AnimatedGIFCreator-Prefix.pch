@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'AnimatedGIFCreator' target in the 'AnimatedGIFCreator' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#import <QuickTime/QuickTime.h>
+#import <QTKit/QTKit.h>
